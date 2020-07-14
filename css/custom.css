@@ -58,6 +58,21 @@ a.btn-bgc-style span.span-bgc {
 	padding: 5px;	
 }
 
+.content-wrapper {
+	background-color: #fff;
+	padding: 20px;
+	width: 100%;
+}
+
+.content-wrapper p {
+	color: #383838;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	line-height: 1.8;
+}
+
+
 /* END GENERAL */
 
 
@@ -214,6 +229,9 @@ box-shadow: -6px 107px 156px -45px rgba(0,0,0,0.75);
 }
 
 #manifesto-section .lead {
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2em;
+	line-height: 1.8;
 	color: #383838 !important;
 }
 
@@ -271,46 +289,6 @@ box-shadow: -6px 107px 156px -45px rgba(0,0,0,0.75);
 
 #about-party-section .overflow-hidden {
 	width: 100%;
-}
-
-
-/* ----------- */
-
-
-/* Party program block */
-
-/*#party-program-section {
-
-}*/
-
-/*#party-program-section h2 {
-	color: #1f295e !important;
-}
-
-#party-program-section .text-color-primary:not(.no-skin), html .text-primary:not(.no-skin) {
-	color: #ff6000 !important;
-}
-
-#party-program-section .lead {
-	color: #1f295e !important;
-}
-
-#party-program-section .btn-outline.btn-primary, html.sticky-header-active .btn-outline.btn-sticky-primary {
-	border-color: #ff3f40;
-    color: #FFF;
-    background-color: #ff3f40 !important;
-    margin-top: 1.5rem!important;
-}
-*/
-
-
-/* ------------------- */
-
-
-/* Party program slider */
-
-#party-program-slider {
-	background-color: #1f295e;
 }
 
 
@@ -512,3 +490,66 @@ html #news-section-title-block .text-color-primary:not(.no-skin), html .text-pri
 }
 
 /* END CONTACT PAGE */
+
+
+/* OUR STEPS PAGE */
+
+#our-steps-main-content article {
+	margin-bottom: 50px;
+}
+
+#our-steps-main-content h2 {
+	color: #383838;
+	font-family: "Montserrat", sans-serif;
+	font-size: 3em;
+	font-weight: 600;
+	line-height: 1.8;
+}
+
+/* END OUR STEPS PAGE */
+
+
+/* SINGLE POST */
+
+#single-post-wrapper #news-section-title-block img {
+	float: right;
+}
+
+#single-post-wrapper article.blog-post {
+	margin-top: 50px;
+}
+
+#single-post-wrapper article.blog-post p {
+	color: #383838;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.2em;
+	line-height: 1.8;
+}
+
+/* END SINGLE POST */
+
+
+/* JOIN US */
+
+#join-us-header img {
+	float: right;
+}
+
+#join-us-main-content .content-wrapper {
+	padding: 50px;
+}
+
+/*#join-us-main-content form label {
+	width: 100%;
+}
+*/
+#join-us-main-content form input[type="text"] {
+	width: 100%;
+}
+
+#join-us-main-content form textarea {
+	display: block;
+}
+
+
+/* END JOIN US */
