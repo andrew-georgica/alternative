@@ -96,9 +96,27 @@ a.btn-bgc-style span.span-bgc {
 /* Slider styles */
 
 #slider-wrapper ul li div#first-slide-text-1,
-#slider-wrapper ul li div#first-slide-text-2,
 #slider-wrapper ul li div#first-slide-text-3 {
-	color: #fe0000 !important;
+	color: #383838!important;
+	font-family: 'BebasNeueCyrillic';
+	font-size: 10em;
+}
+
+#slider-wrapper ul li div#first-slide-text-1 {
+	margin-top: 125px;
+	margin-left: 203px;
+}
+
+#slider-wrapper ul li div#first-slide-text-2 {
+	color: #ff6000 !important;
+	font-family: 'BebasNeueCyrillic';
+	font-size: 10em;
+
+}
+
+#slider-wrapper ul li div#first-slide-text-3 {
+	margin-top: 370px;
+	margin-left: 203px;
 }
 
 /*-------------------------*/
